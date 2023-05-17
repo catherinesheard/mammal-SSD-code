@@ -1,0 +1,7 @@
+#  mammal-SSD-code
+
+First of all, this is code for a project about mammalian sexual size dimorphism, currently in review. If you're here looking for something else, you're in the wrong place. In particular, if you're wondering where the data is, it's currrently included as supplemental information with the manuscript, hopefully being kept confidential. We'll update this note -- and give this repository a DOI -- once the manuscript is accepted.
+
+Anyway, this is code to run the Bayesian phylogenetic mixed models, spread out into separate folders for the three logistic regressions and the several varieties of categorial regressions, as well as the BayesTraits 'Multistate' models. You'll need some additional functions for the categorical regressions; these are in the 'files needed to run categorical regressions' folder. If you're just looking for the main model presented in the manuscript, it's under 'models on the full dataset - no sociality' (a script that will run versions with and without the seasonality variables). Note that each of these models take several hours to run and that it's very easy to accidentally overwrite the output of previous models.
+
+We also include a random 100 of the 10,000 trees in the Upham et al. 2019 (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000494) phylogeny, of which the MCMCglmm codes will trim as part of the initial data cleaning. The trees necessary to run the BayesTraits models are in that folder.

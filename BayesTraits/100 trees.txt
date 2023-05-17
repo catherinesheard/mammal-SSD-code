@@ -1,0 +1,6 @@
+1
+2
+PriorAll exp 10
+EqualTrees 1000
+Iterations 10000
+run
