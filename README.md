@@ -1,6 +1,6 @@
 #  mammal-SSD-code
 
-First of all, this is code for a project about mammalian sexual size dimorphism, currently in review. If you're here looking for something else, you're in the wrong place. In particular, if you're wondering where the data is, it's currrently included as supplemental information with the manuscript, hopefully being kept confidential. We'll update this note -- and give this repository a DOI -- once the manuscript is accepted.
+Code and (some) data for Jones & Sheard 2023, https://doi.org/10.1098/rspb.2023.1211 , originally posted here for the benefit of the reviewers. The rest of the data can be found here: https://rs.figshare.com/collections/Supplementary_material_from_The_macroevolutionary_dynamics_of_mammalian_sexual_size_dimorphism_/6904490. 
 
 Anyway, this is code to run the Bayesian phylogenetic mixed models, spread out into separate folders for the three logistic regressions and the several varieties of categorial regressions, as well as the BayesTraits 'Multistate' models. You'll need some additional functions for the categorical regressions; these are in the 'files needed to run categorical regressions' folder. If you're just looking for the main model presented in the manuscript, it's under 'models on the full dataset - no sociality' (a script that will run versions with and without the seasonality variables). Note that each of these models take several hours to run and that it's very easy to accidentally overwrite the output of previous models.
 
